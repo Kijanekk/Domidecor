@@ -13,7 +13,7 @@
 /* Dla całej nawigacji użyłem czcionki, oraz dałem padding na górze i na dole żeby nie była ona za mała */
 .nav {
   font-family: 'Raleway', sans-serif;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 /* To jest nowa klasa dla buttonów, nie trzeba się teraz pierdolić z przyciskami bootstrapa */
@@ -44,7 +44,7 @@
   background-image: url('../img/header-background.jpg');
   background-position: center;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 85vh;
 }
 
 /* ABOUT */
