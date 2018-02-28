@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+﻿@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* GENERIC */
 
@@ -13,32 +13,32 @@
 /* Dla całej nawigacji użyłem czcionki, oraz dałem padding na górze i na dole żeby nie była ona za mała */
 .nav {
   font-family: 'Raleway', sans-serif;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
-/* To jest nowa klasa dla buttonów, nie trzeba się teraz pierdolić z przyciskami bootstrapa */
+/* To jest nowa klasa dla buttonów, nie trzeba się teraz pierdzielić z przyciskami bootstrapa */
 .menu-link {
+  text-align: center;
   border: 0.1rem solid rgba(0, 0, 0, 0);
+  color: #3a3a3a;
   cursor: pointer;
-  height: 100%;
-  padding: 0.6rem 1rem;
+  padding: 0.3rem 0;
   /* To sprawia że przejście w hover nie jest takim skokiem, a jest płynne i trwa 300ms */
   transition: all 300ms;
-  width: 100%;
 }
 
-/* 
+/*
   W hover zmieniam tylko kolor bordera (wcześniej dałem na 100% przezroczysty kolor),
-  dzięki czemu elementy nie przesuwają się w trakcie animacji przez dodawanie bordera 
+  dzięki czemu elementy nie przesuwają się w trakcie animacji przez dodawanie bordera
   (bo go nie dodaje, ale tylko zmieniam jego kolor)
  */
 .menu-link:hover {
-  border-color: rgba(0, 0, 0, 1);
+  border-color: #3a3a3a;
 }
 
 /* HEADER */
 
-/* Ustawiłem tylko właściwości tła i min-heigth (nie height, bo height rzadko ruszasz) na 70% wysokości ekranu */
+/* Ustawiłem tylko właściwości tła i min-heigth (nie height, bo height rzadko ruszasz) na 85% wysokości ekranu */
 .header {
   background-attachment: fixed;
   background-image: url('../img/header-background.jpg');
@@ -57,6 +57,10 @@
 /* A to ustawienie żeby tekst po prawej był na środku */
 .about-text-container {
   align-items: center;
+  text-align: center;
   display: flex;
   justify-content: center;
+  background-color: #f6f6f6;
+  font-size: 1em;
+  padding: 3rem 0;
 }
